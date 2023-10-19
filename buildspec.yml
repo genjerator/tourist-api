@@ -4,7 +4,8 @@ phases:
     on-failure: ABORT
     runtime-versions:
       php: 8.2
-
+    commands:
+      - echo 'install'
   pre_build:
     on-failure: ABORT
     commands:
